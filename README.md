@@ -17,9 +17,8 @@ Spring Boot: Used for Java-based backend development.
 PostgreSQL: Used as the database.
 Postman: Used for testing API requests.
 Factory Design Pattern: Applied for managing book types.
-Setup
 
-TO RUN THE PROJECT, YOU CAN FOLLOW THESE STEPS:
+SET UP TO RUN THE PROJECT, YOU CAN FOLLOW THESE STEPS:
 
 Clone your repository:
 git clone https://github.com/YaremMalta/library.git
