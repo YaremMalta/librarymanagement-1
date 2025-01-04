@@ -33,23 +33,36 @@ API USAGE
 
 The following API endpoints are used for managing books, users, and borrowing activities in the project:
 GET /books: List all books
+
 POST /books: Add a new book
+
 PUT /books/{id}: Update book information by ID
+
 DELETE /books/{id}: Delete a book by ID
+
 POST /borrow/{bookId}: A user can borrow a book by its unique ID
+
 For Users and Borrow operations, the following CRUD operations are provided:
 
 Users API:
 
 GET /users: List all users
+
 POST /users: Add a new user
+
 PUT /users/{id}: Update user information by ID
+
 DELETE /users/{id}: Delete a user by ID
+
 Borrow API:
 GET /borrow: List all borrowings
+
 POST /borrow/{bookId}: Borrow a book for a user by book ID
+
 PUT /borrow/{id}: Update borrowing information by ID
+
 DELETE /borrow/{id}: Delete a borrowing by ID
+
 
 POSTMAN API TESTING
 
