@@ -10,6 +10,8 @@ MVC Architecture: The application is designed using the Model-View-Controller (M
 User Management: A specific user can borrow a book by its unique ID. User and borrowing information is stored in the database.
 Book Types and Factory Design Pattern: The Factory Design Pattern is used to dynamically manage book types.
 API Testing: Postman is used to test the API endpoints of the project.
+
+
 Technologies Used
 
 Spring Boot: Used for Java-based backend development.
@@ -21,12 +23,13 @@ Setup
 To run the project, you can follow these steps:
 
 Clone your repository:
-git clone https://github.com/username/library.git
+git clone https://github.com/yaremmalta/library.git
 Install the required dependencies:
 mvn install
 Set up the PostgreSQL database and add connection details in the application.properties file.
 Start the application:
 mvn spring-boot:run
+
 API Usage
 
 The following API endpoints are used for managing books, users, and borrowing activities in the project:
@@ -48,6 +51,6 @@ GET /borrow: List all borrowings
 POST /borrow/{bookId}: Borrow a book for a user by book ID
 PUT /borrow/{id}: Update borrowing information by ID
 DELETE /borrow/{id}: Delete a borrowing by ID
-Postman API Testing
 
+Postman API Testing
 A Postman collection is provided to test the API endpoints. You can download the collection and test the API requests directly via Postman.
